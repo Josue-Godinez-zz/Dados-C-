@@ -6,7 +6,11 @@ namespace Dados
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            while(Console.ReadKey().Key == ConsoleKey.Enter)
+            {
+                Console.WriteLine("Nueva Visualizacion");
+            }
+            
         }
     }
 }
