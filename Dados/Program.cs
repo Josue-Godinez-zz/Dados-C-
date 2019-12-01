@@ -4,6 +4,7 @@ namespace Dados
 {
     class Program
     {
+
         public void dibujarDado(int caraSuperior, int caraInferior, int caraLaterales)//40 13
         {
             Console.WriteLine("                    ###########          ");
@@ -19,6 +20,13 @@ namespace Dados
             Console.WriteLine("                    #    {0}    #         ",7-caraSuperior);
             Console.WriteLine("                    #         #          ");
             Console.WriteLine("                    ###########          ");
+        }
+
+        public void asigancionDeValores()
+        {
+            Random random = new Random();
+            random.Next(1,7);
+            
         }
         static void Main(string[] args)
         {
