@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josue\\Desktop\\Github\\Dados-C-\\Dados\\Dados.csproj",
+      "projectUniqueName": "C:\\Users\\josue\\Documents\\GitHub\\Dados-C-\\Dados\\Dados.csproj",
       "projectName": "Dados",
-      "projectPath": "C:\\Users\\josue\\Desktop\\Github\\Dados-C-\\Dados\\Dados.csproj",
+      "projectPath": "C:\\Users\\josue\\Documents\\GitHub\\Dados-C-\\Dados\\Dados.csproj",
       "packagesPath": "C:\\Users\\josue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josue\\Desktop\\Github\\Dados-C-\\Dados\\obj\\",
+      "outputPath": "C:\\Users\\josue\\Documents\\GitHub\\Dados-C-\\Dados\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josue\\AppData\\Roaming\\NuGet\\NuGet.Config",

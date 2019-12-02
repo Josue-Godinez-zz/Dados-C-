@@ -22,20 +22,51 @@ namespace Dados
             Console.WriteLine("                    ###########          ");
         }
 
-        public void asigancionDeValores()
+        public int[] asigancionDeValores()
         {
             Random random = new Random();
-            random.Next(1,7);
-            
+            int[] valoresDescartados = new int[3];
+            int[] valores = new int[3];
+            int x = 0;
+            do
+            {
+                int numeroRandom = random.Next(1, 7);
+                int numeroDescartado = 7 - numeroRandom;
+                Boolean condicion = true; 
+                for(int y = 0; y < 3; y++)
+                {
+                    if(valores[y] == numeroRandom || valoresDescartados[y] == numeroRandom)
+                    {
+                        condicion = false;
+                    }
+                }
+                for(int y = 0; y < 3; y++)
+                {
+                    if (valoresDescartados[y] == numeroDescartado || valores[y] == numeroDescartado)
+                    {
+                        condicion = false;
+                    }
+                }
+                if(condicion)
+                {
+                    valores[x] = numeroRandom;
+                    valoresDescartados[x] = numeroDescartado;
+                    x++;
+                }
+            }
+            while (x<3);
+
+            return valores;
         }
         static void Main(string[] args)
         {
-            Program aux = new Program();
-            while(Console.ReadKey().Key == ConsoleKey.Enter)
+            
+            while (Console.ReadKey().Key == ConsoleKey.Enter)
             {
+                Program aux = new Program();
+                int[] valores = aux.asigancionDeValores();
                 Console.WriteLine("Nueva Visualizacion Del Dado");
-                aux.dibujarDado(4,5,6);
-
+                aux.dibujarDado(valores[0], valores[1], valores[2]);
             }
             
         }

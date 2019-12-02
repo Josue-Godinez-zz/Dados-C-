@@ -9,3 +9,14 @@ C:\Users\josue\Desktop\Github\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.dll
 C:\Users\josue\Desktop\Github\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.pdb
 C:\Users\josue\Desktop\Github\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.dll
 C:\Users\josue\Desktop\Github\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.pdb
+C:\Users\josue\Documents\GitHub\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.exe
+C:\Users\josue\Documents\GitHub\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.deps.json
+C:\Users\josue\Documents\GitHub\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.runtimeconfig.json
+C:\Users\josue\Documents\GitHub\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.runtimeconfig.dev.json
+C:\Users\josue\Documents\GitHub\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.dll
+C:\Users\josue\Documents\GitHub\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.pdb
+C:\Users\josue\Documents\GitHub\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.csprojAssemblyReference.cache
+C:\Users\josue\Documents\GitHub\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.AssemblyInfoInputs.cache
+C:\Users\josue\Documents\GitHub\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.AssemblyInfo.cs
+C:\Users\josue\Documents\GitHub\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.dll
+C:\Users\josue\Documents\GitHub\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.pdb
