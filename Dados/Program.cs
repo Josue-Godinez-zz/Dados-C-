@@ -60,15 +60,21 @@ namespace Dados
         }
         static void Main(string[] args)
         {
-            
-            while (Console.ReadKey().Key == ConsoleKey.Enter)
+            bool condicion = true;
+            while (condicion)
             {
-                Program aux = new Program();
-                int[] valores = aux.asigancionDeValores();
-                Console.WriteLine("Nueva Visualizacion Del Dado");
-                aux.dibujarDado(valores[0], valores[1], valores[2]);
+                if (Console.ReadKey().Key == ConsoleKey.Enter)
+                {
+                    Program aux = new Program();
+                    int[] valores = aux.asigancionDeValores();
+                    Console.WriteLine("Nueva Visualizacion Del Dado");
+                    aux.dibujarDado(valores[0], valores[1], valores[2]);
+                }
+                else if (Console.ReadKey().Key == ConsoleKey.Escape)
+                {
+                    condicion = false;
+                }
             }
-            
         }
     }
 }
