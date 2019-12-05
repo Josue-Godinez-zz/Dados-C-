@@ -19,3 +19,4 @@ C:\Users\josue\Documents\GitHub\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.Ass
 C:\Users\josue\Documents\GitHub\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.AssemblyInfo.cs
 C:\Users\josue\Documents\GitHub\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.dll
 C:\Users\josue\Documents\GitHub\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.pdb
+C:\Users\josue\Documents\GitHub\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.csprojAssemblyReference.cache
