@@ -58,6 +58,28 @@ namespace Dados
 
             return valores;
         }
+
+        public void reto2()
+        {
+            Boolean condicion = false;
+            int[] primerosValores;
+            int[] segundosValores; 
+            while (condicion != true)
+            {
+                primerosValores = asigancionDeValores();
+                segundosValores = asigancionDeValores();
+                if(primerosValores[1]!=segundosValores[1])
+                {
+                    condicion = true;
+                }
+
+                if (condicion)
+                {
+                    dibujarDado(primerosValores[0], primerosValores[1], primerosValores[2]);
+                    dibujarDado(segundosValores[0], segundosValores[1], segundosValores[2]);
+                }
+            }   
+        }
         static void Main(string[] args)
         {
             bool condicion = true;
@@ -68,7 +90,7 @@ namespace Dados
                     Program aux = new Program();
                     int[] valores = aux.asigancionDeValores();
                     Console.WriteLine("Nueva Visualizacion Del Dado");
-                    aux.dibujarDado(valores[0], valores[1], valores[2]);
+                    aux.reto2();
                 }
                 else if (Console.ReadKey().Key == ConsoleKey.Escape)
                 {
